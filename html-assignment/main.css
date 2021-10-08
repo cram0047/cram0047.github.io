@@ -11,3 +11,8 @@ header, footer{
 .site-title{
     color: blue;
 }
+
+/* ID Selector for myimage*/
+#my-image{
+    box-shadow: black;
+}
