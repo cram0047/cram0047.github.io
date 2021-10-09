@@ -14,5 +14,5 @@ header, footer{
 
 /* ID Selector for myimage*/
 #my-image{
-    box-shadow: black;
+    box-shadow:0 0 2px;
 }
