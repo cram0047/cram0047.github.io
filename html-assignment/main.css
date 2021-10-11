@@ -31,7 +31,7 @@ a:link {
     background-color:lightskyblue;
 }
 
-/* Background on hover*/
+/* Change colour of background on hover*/
 a:hover {
     background-color:mediumseagreen;
     color: black;
