@@ -21,7 +21,7 @@ header,footer{
 
 /* nth child selector*/
 li:nth-child(odd) {
-    background: lightgrey;
+    background: lightpink;
 }
 
 /* Remove underline and add border and backgorund*/
