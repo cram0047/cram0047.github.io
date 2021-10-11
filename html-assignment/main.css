@@ -25,6 +25,8 @@ li:nth-child(odd) {
 /* Remove underline from link in nav*/
 a:link {
     text-decoration: none;
+    border: darkgray;
+    background: darkorchid;
 }
 
 /* Background*/
