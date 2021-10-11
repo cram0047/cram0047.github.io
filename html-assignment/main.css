@@ -27,13 +27,12 @@ li:nth-child(odd) {
 /* Remove underline and add border and backgorund*/
 a:link {
     text-decoration: none;
+    border-style:double;
+    background-color:lightskyblue;
 }
 
-a:link{
-    color: black;
-    border-style:double;
-    border-color:black;
-    background-color:lightskyblue;
+a:visited{
+    background-color: brown;
 }
 
 /* Background on hover*/
