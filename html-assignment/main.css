@@ -22,6 +22,12 @@ li:nth-child(odd) {
     background: pink;
 }
 
+/* Remove underline from link in nav*/
 a:link {
     text-decoration: none;
+}
+
+/* Background*/
+a:hover {
+    color: chartreuse;
 }
