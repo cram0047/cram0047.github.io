@@ -18,6 +18,6 @@ header, footer{
 }
 
 /* nth child selector*/
-ul:nth-child(1) {
+li:nth-child(odd) {
     background: pink;
 }
