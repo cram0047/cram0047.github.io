@@ -29,6 +29,7 @@ a:link {
     text-decoration: none;
     border-style:double;
     background-color:lightskyblue;
+    color: chartreuse;
 }
 
 a:visited{
