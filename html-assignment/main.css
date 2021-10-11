@@ -21,18 +21,3 @@ header,footer{
 li:nth-child(odd) {
     background: pink;
 }
-
-/* Remove underline and add border and backgorund*/
-a:link {
-    text-decoration: none;
-    border-style:double;
-    border-color:black;
-    background-color:lightskyblue;
-}
-
-
-
-/* Background on hover*/
-a:hover {
-    background-color:yellow;
-}
