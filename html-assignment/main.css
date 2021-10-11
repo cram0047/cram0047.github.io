@@ -33,6 +33,6 @@ a:link {
 
 /* Background on hover*/
 a:hover {
-    background-color:yellow;
-    color: lime;
+    background-color:mediumseagreen;
+    color: black;
 }
