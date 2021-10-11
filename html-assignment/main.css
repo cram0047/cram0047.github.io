@@ -32,7 +32,7 @@ a:link {
 }
 
 a:visited{
-    background-color: lightgray;
+    color: crimson;
 }
 
 /* Background on hover*/
