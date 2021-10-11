@@ -1,10 +1,12 @@
+/*target body*/
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
 }
 
+/* Multiple Elements*/
 header,footer{
-    background-color: blueviolet;
+    background-color: violet;
 }
 
 /* Class Selector*/
@@ -20,4 +22,17 @@ header,footer{
 /* nth child selector*/
 li:nth-child(odd) {
     background: pink;
+}
+
+/* Remove underline and add border and backgorund*/
+a:link {
+    text-decoration: none;
+    border-style:double;
+    border-color:black;
+    background-color:lightskyblue;
+}
+
+/* Background on hover*/
+a:hover {
+    background-color:yellow;
 }
