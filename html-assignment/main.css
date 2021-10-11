@@ -38,5 +38,5 @@ a:visited{
 /* Background on hover*/
 a:hover {
     background-color:yellow;
-    color: blue;
+    color: black;
 }
