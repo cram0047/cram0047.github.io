@@ -4,7 +4,7 @@ body {
 }
 
 header, footer{
-    color: blueviolet;
+    background-color: blueviolet;
 }
 
 /* Class Selector*/
@@ -22,7 +22,7 @@ li:nth-child(odd) {
     background: pink;
 }
 
-/* Remove underline from link in nav*/
+/* Remove underline and add border and backgorund*/
 a:link {
     text-decoration: none;
     border-style:double;
@@ -30,7 +30,9 @@ a:link {
     background-color:lightskyblue;
 }
 
-/* Background*/
+
+
+/* Background on hover*/
 a:hover {
     background-color:yellow;
 }
