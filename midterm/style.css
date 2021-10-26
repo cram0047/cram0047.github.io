@@ -3,14 +3,14 @@ html{
     background: lightsteelblue;
 }
 
-h1, h2, h3, article, section, ul, a{
+h2, h3, article, section, ul, a{
     margin-left: 20px;
 }
 
 .box{
     margin-top: 0%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
     background: lightslategray;
 }
 
@@ -25,10 +25,15 @@ a{
     text-align:center;
     color:darkred;
     margin-top: 0%;
+    width: 100%;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
 }
 
 .image1{
-    display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 0%;
@@ -36,13 +41,6 @@ a{
 }
 
 
-.title{
-    position: absolute;
-    font-size: 50px;
-    top: 200px;
-    left: 500px;
-
-}
 
 /*Float*/
 img{
@@ -62,3 +60,6 @@ ul{
 }
 
 /*Form*/
+/*form{
+
+}*/
