@@ -40,6 +40,11 @@ html{
     background: lightslategray;
 }
 
+nav{
+    margin-top: 0px;
+    margin-bottom: 50px;
+
+}
 ul{
     list-style-type: none;
     color: inherit;
@@ -49,19 +54,38 @@ a{
     color: inherit;
     text-decoration: none;
     font-size: 20pt;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 .line{
     display: inline;
     border-right: solid ;
     color: inherit;
-    padding: 10px;
+    padding: 3%;
+    padding-left: 0%;
+    padding-right: 4%;
 
 }
 
 .noline{
     display: inline;
     border-left: none ;
-    padding: 10px;
+    padding: 3%;
+    margin-bottom: 50px;
+    padding-right: 0%;
+    padding-left: 3%;
+}
+
+.story{
+    display: inline;
+    border-right: solid;
+    color: inherit;
+    padding: 3%;
+    padding-right: 8%;
+    padding-left: 8%;
+    border-left: none;
 }
 
 /*Float*/
@@ -114,7 +138,7 @@ textarea{
  }
 .boxform{
     border: black solid 1px;
-    width: 90;
+    width: 90%;
     margin: 10px;
 }
 
