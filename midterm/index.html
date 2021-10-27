@@ -13,9 +13,11 @@
         <div class="title">Riley Cram</div>
     </div>
     <nav>
-        <a href="#">Home</a>
-        <a href="#">Story</a>
-        <a href="#">Contact</a>
+        <ul>
+            <li class="line"><a href="#">Home</a></li>
+            <li class="line"><a href="#">Story</a></li>
+            <li class="noline"><a href="#">Contact</a></li>
+        </ul>
     </nav>
     <div>
         <h2>About Riley Cram</h2>
@@ -37,35 +39,54 @@
     </div>
     <section>
         <h3>Contact to learn more</h3>
-        <form acttion="http://google.com" method="get">
-            <div>
-                <label for="fullname">Full Name</label>
-                <input id="fullname" type="text" name="fullname">
-            </div>
-            <div>
-                <label for="email">Email</label>
-                <input id="email" type="text" name="email">
-            </div>
-            <div>
-                <label for="message">Your Message</label>
-                <textarea id="message"></textarea>
-            </div>
-            <div>
-                <div>Do you want to pet Riley?</div>
-                <label for="yes">Yes</label>
-                <input type="checkbox" id="yes" name="yes">
+        <form acttion="http://google.com" method="get" >
+            <div class="boxform">
+                <div>
+                    <div>
+                        <label for="fullname">Full Name</label>
+                    </div>
+                    <div>
+                        <input id="fullname" type="text" name="fullname">
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <label for="email">Email</label>
+                    </div>
+                    <div>
+                        <input id="email" type="text" name="email">
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <label for="message">Your Message</label>
+                    </div>
+                    <div>
+                        <textarea id="message"></textarea>
+                    </div>
+                </div>
+                <div>
+                    <div class="question">Do you want to pet Riley?</div>
+                    <label for="yes">Yes</label>
+                    <input type="checkbox" id="yes" name="yes">
 
-                <label for="yeah">Yeah</label>
-                <input type="checkbox" id="yeah" name="yeah">
+                    <label for="yeah">Yeah</label>
+                    <input type="checkbox" id="yeah" name="yeah">
 
-                <label for="maybe">Maybe</label>
-                <input type="checkbox" id="maybe" name="maybe">
-            </div>
-                <input type="submit" value="send">
-            <div>
+                    <label for="maybe">Maybe</label>
+                    <input type="checkbox" id="maybe" name="maybe">
+                </div>
+                    <input type="submit" value="send">
+                <div>
 
-            </div>
+                </div>
+        </div>
         </form>
     </section>
+    <footer>
+        <p>
+            Copyright Riley Cram
+        </p>
+    </footer>
 </body>
 </html>
