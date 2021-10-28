@@ -3,7 +3,7 @@ html{
     background: lightsteelblue;
 }
 
-/*Image at the top*/
+/*Image at the top----------------------------------------------*/
 .imgcontainer{
     position: relative;
     text-align:center;
@@ -64,6 +64,7 @@ a{
     padding: 3%;
     padding-left: 0%;
     padding-right: 4%;
+    padding-bottom: 1%;
 
 }
 
@@ -74,6 +75,7 @@ a{
     margin-bottom: 50px;
     padding-right: 0%;
     padding-left: 3%;
+    padding-bottom: 1%;
 }
 
 .story{
@@ -84,6 +86,7 @@ a{
     padding-right: 8%;
     padding-left: 8%;
     border-left: none;
+    padding-bottom: 1%;
 }
 
 /*Float*/
@@ -99,6 +102,7 @@ a{
   margin: 0 auto;
   margin-left: 1%;
   margin-right: 1%;
+  margin-top: 50px;
 }
 
 
@@ -126,7 +130,7 @@ textarea{
     margin-right: 5px;
     margin-bottom: 2px;
     width: 99%;
-    height: 60px;
+    height: 80px;
  }
 
  input{
