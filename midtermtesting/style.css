@@ -1,42 +1,6 @@
-/*not html*/
-html{
-    font-family: Arial, Helvetica, sans-serif;
-    background: lightsteelblue;
+.container{
+    max-width:100px;
+    border-style: solid black;
+    margin: 0 auto;
 }
 
-/*not box*/
-.box{
-    margin-top: 0%;
-    margin-left: 15%;
-    margin-right: 15%;
-    background: lightslategray;
-}
-
-/*Image at the top*/
-.imgcontainer{
-    position: relative;
-    text-align:center;
-    color:darkred;
-    margin-top: 0%;
-    width: 100%;
-}
-
-.title{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-}
-
-.image1{
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0%;
-    width: 100%;
-}
-
-/*Float*/
-img{
-    width: 200px;
-    float: left;
-    margin: 20px;
-}
