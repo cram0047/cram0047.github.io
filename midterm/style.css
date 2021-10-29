@@ -1,9 +1,19 @@
+/*changinf background of html*/
 html{
     font-family: Arial, Helvetica, sans-serif;
     background: lightsteelblue;
 }
 
-/*Image at the top----------------------------------------------*/
+
+/*styling the body tag*/
+body{
+    margin-top: 0%;
+    margin-left: 15%;
+    margin-right: 15%;
+    background: lightslategray;
+}
+
+/*Image at the top and header----------------------------------------------*/
 .imgcontainer{
     position: relative;
     text-align:center;
@@ -13,6 +23,7 @@ html{
     margin-bottom: 0%;
 }
 
+/*Header/title*/
 .title{
     position: absolute;
     text-align: center;
@@ -22,6 +33,7 @@ html{
     font-size: large;
 }
 
+/*The banner/header image*/
 .image1{
     margin-left: auto;
     margin-right: auto;
@@ -30,37 +42,33 @@ html{
     width: 100%;
 }
 
+/*----------------Nav/ANchors------------------*/
 
-/*this might not be it*/
-body{
-    margin-top: 0%;
-    margin-left: 15%;
-    margin-right: 15%;
-    background: lightslategray;
-}
-
+/*The nav and its margins*/
 nav{
     margin-top: 0px;
-    margin-bottom: 50px;
+    margin-bottom: 5%;
 
 }
+
+/*nav & il and styling it*/
 nav ul{
     list-style-type: none;
     color: inherit;
     font-size: x-large;
 }
 
+/*the anchor\links style*/
 a{
     color: inherit;
     text-decoration: none;
-    font-size: 2em,32px;
     margin-left: 5%;
     margin-right: 5%;
     padding-left: 3%;
     padding-right: 3%;
 }
 
-
+/*decorative border for HOME*/
 .line{
     display: inline;
     border-right: solid ;
@@ -72,6 +80,7 @@ a{
 
 }
 
+/*decorative border for CONTACT*/
 .noline{
     display: inline;
     border: none;
@@ -82,6 +91,7 @@ a{
     padding-bottom: 1%;
 }
 
+/*decorative border for STORY*/
 .story{
     display: inline;
     border-right: solid;
@@ -92,6 +102,8 @@ a{
     border-left: none;
     padding-bottom: 1%;
 }
+
+/*--------- Float Items --------*/
 
 /*Float*/
 .image2{
@@ -111,24 +123,27 @@ a{
 }
 
 
-/*To clear*/
+/*To clear the float*/
 .facts{
     clear: left;
     margin-left: 1%;
+    clear: both;
 }
 
+/* to add margins to list*/
 ul{
-    font-size: 17px;
-    clear:both;
     margin-left: 1%;
 }
 
-
+/*to add margin to h3*/
 h3{
     margin-left: 1%;
 }
-/*Margins and stuff for form*/
 
+
+/*------------ Style for the Form ------------*/
+
+/*Style fot the textarea/message for the form*/
 textarea{
     margin-top: 5px;
     margin-left: 3px;
@@ -138,14 +153,16 @@ textarea{
     height: 80px;
  }
 
+ /*Style for the input for the form*/
  input{
     margin-top: 0%;
     margin-bottom: 1%;
     margin-right: 0%;
     margin-left: 0%;
-
  }
-.boxform{
+
+ /*the box around the form*/
+ .boxform{
     border: black solid 1px;
     width: 96%;
     margin: 1%;
@@ -154,6 +171,8 @@ textarea{
     padding-right: 1%;
     padding-bottom: 0%;
 }
+
+/*----- Footer ------*/
 
 /*Style for Footer*/
 footer{
