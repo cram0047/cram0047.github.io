@@ -57,7 +57,7 @@ nav{
 nav ul{
     list-style-type: none;
     color: inherit;
-    font-size: x-large;
+    font-size: large;
 }
 
 /*the anchor\links style*/
@@ -77,7 +77,7 @@ a{
     color: inherit;
     padding: 5%;
     padding-left: 0%;
-    padding-right: 4%;
+    padding-right: 7%;
     padding-bottom: 1%;
 
 }
@@ -87,8 +87,8 @@ a{
     border-right: solid;
     color: inherit;
     padding: 5%;
-    padding-right: 5%;
-    padding-left: 5%;
+    padding-right: 7%;
+    padding-left: 7%;
     border-left: none;
     padding-bottom: 1%;
 }
@@ -97,7 +97,7 @@ a{
 .noline{
     display: inline;
     border: none;
-    padding: 2%;
+    padding: 1%;
     margin-bottom: 1%;
     padding-right: 0%;
     padding-left: 2%;
