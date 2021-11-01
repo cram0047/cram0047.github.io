@@ -1,7 +1,7 @@
 /*changinf background of html*/
 html{
     background: lightsteelblue;
-    width: 990px;
+    width: 1000px;
     margin: 0 auto;
 }
 
@@ -15,7 +15,7 @@ header{
 /*main content on site*/
 main{
     margin: 0 auto;
-    width: 990px;
+    width: 1000px;
 }
 
 /*styling the body tag*/
@@ -52,16 +52,19 @@ body{
     font-size: large;
 }
 
-
+.riley{
+    font-size: 16pt;
+}
 
 /*----------------Nav/ANchors----------------------------*/
 
 /*The nav and its margins*/
 nav{
-    width: 990px;
+    width: 1000px;
     margin: 0 auto;
     margin-top: 0px;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
+    font-size: 18pt;
 
 }
 
@@ -73,6 +76,7 @@ nav ul li{
     font-size: large;
 }
 
+/*Container for nav*/
 .contain{
     width: 100%;
     margin: 0 auto;
@@ -94,7 +98,7 @@ a{
     color: inherit;
     padding: 5%;
     padding-left: 4%;
-    padding-right: 5%;
+    padding-right: 6%;
     padding-bottom: 1%;
 
 }
@@ -200,7 +204,13 @@ textarea{
 
 /*Style for Footer*/
 footer{
-    width: 990px;
-    padding: 1%;
-    margin:  0 auto;
+    width: 1000px; 
+    margin: 0 auto;
+    text-align: right;
+    font-size: 10pt;
+}
+
+.foot{
+    padding-right: 10px;
+    padding-bottom: 20px;
 }
