@@ -1,15 +1,28 @@
 /*changinf background of html*/
 html{
     background: lightsteelblue;
-    margin: 0 15%;
+    width: 990px;
+    margin: 0 auto;
+}
+
+/*heading of site*/
+header{
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/*main content on site*/
+main{
+    margin: 0 auto;
+    width: 990px;
 }
 
 /*styling the body tag*/
 body{
+    margin: 0 auto;
+    width: 1000px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 0%;
-    margin-left: 15%;
-    margin-right: 15%;
     background: lightslategray;
 }
 
@@ -18,17 +31,13 @@ body{
     position: relative;
     text-align:center;
     color:purple;
-    margin-top: 0%;
     width: 100%;
     margin-bottom: 0%;
 }
 
 /*The banner/header image*/
 .image1{
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0%;
-    margin-bottom: 0%;
+  margin: 0 auto;
     width: 100%;
 }
 
@@ -38,6 +47,7 @@ body{
     text-align: center;
     top: 50%;
     left: 40%;
+    right: 60%;
     font-weight: bolder;
     font-size: large;
 }
@@ -48,6 +58,8 @@ body{
 
 /*The nav and its margins*/
 nav{
+    width: 990px;
+    margin: 0 auto;
     margin-top: 0px;
     margin-bottom: 5%;
 
@@ -55,11 +67,16 @@ nav{
 
 /*nav & il and styling it*/
 nav ul{
+    margin: 0 auto;
     list-style-type: none;
     color: inherit;
     font-size: large;
 }
 
+.contain{
+    width: 100%;
+    margin: 0 auto;
+}
 /*the anchor\links style*/
 a{
     color: inherit;
@@ -76,8 +93,8 @@ a{
     border-right: solid ;
     color: inherit;
     padding: 5%;
-    padding-left: 0%;
-    padding-right: 7%;
+    padding-left: 4%;
+    padding-right: 5%;
     padding-bottom: 1%;
 
 }
@@ -87,8 +104,8 @@ a{
     border-right: solid;
     color: inherit;
     padding: 5%;
-    padding-right: 7%;
-    padding-left: 7%;
+    padding-right: 6%;
+    padding-left: 6%;
     border-left: none;
     padding-bottom: 1%;
 }
@@ -99,8 +116,8 @@ a{
     border: none;
     padding: 1%;
     margin-bottom: 1%;
-    padding-right: 0%;
-    padding-left: 2%;
+    padding-right: 6%;
+    padding-left: 5%;
     padding-bottom: 1%;
 }
 
@@ -183,5 +200,7 @@ textarea{
 
 /*Style for Footer*/
 footer{
+    width: 990px;
     padding: 1%;
+    margin:  0 auto;
 }
