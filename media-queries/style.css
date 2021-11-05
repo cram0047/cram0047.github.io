@@ -1,0 +1,27 @@
+/*DEFAULT/MOBILE*/
+body{
+    background: lightblue;
+}
+img {
+    max-width: 100%;
+}
+
+.container{
+    width: auto;
+    margin: 0 auto;
+}
+
+.smallkitten {display: block;}
+.largekitten {display: none;}
+
+
+
+/*TABLET SIZE*/
+
+@media screen and (min-width: 480px) {
+    .smallkitten {display: none;}
+    .largekitten {display: block;}
+    
+}
+
+/*DESKTOP*/
