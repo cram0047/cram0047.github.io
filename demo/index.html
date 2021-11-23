@@ -5,14 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="css.css" rel="stylesheet">
 
 </head>
 <body>
-    <h1>
-        hello
-            <link href="main.css" rel="stylesheet">
+   <section class="container">
+        <div class="test">A</div>
+        <div>B</div>
+        <div>C</div>
+        <div>D</div>
+        <div>E</div>
+        <div>F</div>
+        <div>G</div>
+        <div>H</div>
+   </section>
+   <style>
+       .container{
+           display: grid;
+       }
 
-    </h1>
+       div{
+        border: solid black;
+
+       }
+
+       .test{
+           background: red;
+        grid-column: 1 / 4;
+       }
+   </style>
 </body>
 </html>

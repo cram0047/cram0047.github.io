@@ -15,7 +15,7 @@ img {
     padding: 10px;
 }
 
-/* 2 Adding a media-query for 480px and above */
+/* 2. Adding a media-query for 480px and above */
 
 @media screen and (min-width: 480px) {
     .smallkitten {display: none;}
