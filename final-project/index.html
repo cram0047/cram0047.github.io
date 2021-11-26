@@ -7,11 +7,11 @@
     <title>Final-Project</title>
 </head>
 <body>
-    <header> <!---Start of Header (1)-->
-        <div class="container"> <!---1.1 -->
-            <img src="images/logo.png" alt="logo"> <!---1.1.1-->
-            <nav> <!---1.1.2-->
-                <ul> <!--- 1.1.2.1-->
+    <header> <!---Start of Header-->
+        <div class="container"> <!---container for logo and nav bar-->
+            <img src="images/logo.png" alt="logo"> <!-- logo image-->
+            <nav> 
+                <ul> 
                     <li class="#"><a href="home"></a>Home</li>
                     <li class="#"><a href="about"></a>About us</li>
                     <li class="#"><a href="services"></a>Services</li>
@@ -19,22 +19,22 @@
                     <li class="#"><a href="contact"></a>Contact</li>
                 </ul> 
             </nav> 
-            <form> <!---1.1.3-->
-                <input type="text" placeholder="search"> <!---1.1.3.1-->
+            <form> 
+                <input type="text" placeholder="search">
             </form>
-            <div class="intro-banner"> <!---of 1.1.4-->
-                <img src="images/main-banner.jpg" alt="main-banner-image"><!---1.1.4.1-->
-                <div class="welcome-to-container"><!---1.1.4.2-->
-                    <h1>Welcome to Three Star Media</h1> <!---1.1.4.2.1-->
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, dolore. Aliquid quas, in dolorum vero explicabo modi ex debitis quisquam fugiat nam eum corrupti eius exercitationem atque quaerat illo at. </p> <!---1.1.4.2.2-->
-                    <button type="button">Connect with us &#9654;</button> <!---1.1.4.2.3-->
+            <div class="intro-banner"> <!--the banner for the introducation-->
+                <img src="images/main-banner.jpg" alt="main-banner-image">
+                <div class="welcome-to-container">
+                    <h1>Welcome to Three Star Media</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, dolore. Aliquid quas, in dolorum vero explicabo modi ex debitis quisquam fugiat nam eum corrupti eius exercitationem atque quaerat illo at. </p>
+                    <button type="button">Connect with us &#9654;</button>
                 </div>
             </div>
         </div> 
-    </header> <!---End of Header (1)-->
+    </header> <!---End of Header-->
 
-    <main> <!---Start of Main (2)-->
-        <section class="about-us-container"> <!---2.1-->
+    <main> <!---Start of Main-->
+        <section class="about-us-container"> <!--container for about us-->
             <div class="about-us-content">
                 <img src="images/about-us.jpg" alt="ping-pong-table">
                 <h2>About Us</h2>
@@ -42,7 +42,7 @@
             </div>
         </section>
 
-        <section class="our-services"><!---2.2 start of our services section-->
+        <section class="our-services"><!---start of our services section-->
             <h2>Our Services</h2>
             <div class="services-digital"> <!--Digital-->
                 <img src="images/digital.jpg" alt="phone-and-laptop">
@@ -76,7 +76,7 @@
             </div>
         </section>
 
-        <section class="our-vision"><!---2.3 our vision section-->
+        <section class="our-vision"><!---our vision section-->
             <div class="our-vision-vision">
                 <img src="images/vision.jpg" alt="oragami">
                 <h3>Our Vision</h3>
@@ -85,15 +85,16 @@
             </div>
         </section>
 
-        <section class="our-team"><!---2.4 our team section-->
-            <div class="our-team-members">
+        <section class="our-team"><!---our team section-->
+            <h2>Our Team</h2>
+            <div class="our-team-members"> <!--team member john-->
                 <div class="team-member-john">
                     <img src="images/john.jpg" alt="">
                     <h3>John Doe</h3>
                     <h4>CEO and Co-Owner</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, dolore! Nostrum neque consequuntur quos laudantium fugit optio esse, odit veritatis delectus excepturi rerum adipisci ullam quaerat ipsa ex sed doloremque?</p>
                 </div>
-                <div class="team-member-bob">
+                <div class="team-member-bob"> <!--team member bob-->
                     <img src="images/bob.jpg" alt="">
                     <h3>Bob Rite</h3>
                     <h4>CFO and Co-Owner</h4>
@@ -102,13 +103,13 @@
             </div>
         </section>
 
-        <section class="contact-us"><!---2.5 contact us section-->
-            <div class="contact-us-"><!--2.5.1-->
-                <h2>Contact Us</h2> <!--2..5.1.1-->
+        <section class="contact-us"><!---contact us section-->
+            <div class="contact-us-">
+                <h2>Contact Us</h2>
             </div>
-            <div class="contact-form"> <!--2.5.2-->
-                <h3>Send us a message</h3> <!--2.5.2.1 the header for the form--> 
-                <form class="contact-form-form" action="sites/thanks.html" method="get"> <!-- 2.5.2.2 the form tag with the class-->
+            <div class="contact-form"> <!-- contact form container-->
+                <h3>Send us a message</h3> <!--the header for the form--> 
+                <form class="contact-form-form" action="sites/thanks.html" method="get"> <!-- the form tag with the class-->
                         <div>
                             <div>
                                 <label for="fullname">Full Name</label> <!--label for fullname in form-->
@@ -136,8 +137,8 @@
                 </form>
             </div>
             <div class="hours-operation-container"> <!--2.5.3 hours of operation section-->
-                <h3>Hours of operation</h3> <!--2.5.3.1-->
-                <div class="hours-table"> <!--2.5.3.2-->
+                <h3>Hours of operation</h3>
+                <div class="hours-table"> 
                     <table>
                         <tr>
                             <th>Days</th>
@@ -152,13 +153,13 @@
                             <td> Closed</td>
                     </table>
                 </div>
-                <div class="loaction-container"> <!--2.5.3.3 location -->
+                <div class="loaction-container"> <!--location -->
                     <h3>Location</h3>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.9445518044795!2d-75.75712548481577!3d45.3499315490825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1637955373333!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
             </div>
         </section>
-    </main> <!---End of Main (2)-->
+    </main> <!---End of Main-->
     <footer>
         <p>&copy;Copyright Three Star Media, 2020</p>
         <p>All images are taken from Unsplash</p>
