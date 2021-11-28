@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Final-Project</title>
+    <title>Final Project</title>
 </head>
 <body>
     <header> <!---Start of Header-->
@@ -19,12 +19,15 @@
                     <li class="#"><a href="contact"></a>Contact</li>
                 </ul> 
             </nav> 
-            <form> 
-                <input type="text" placeholder="search">
+            <form class="search-form"> 
+                <input type="text" placeholder="search" name="search" class="searchform-input">
+                <button type="submit" class="searchform-button">
+                    <i class="fa fa-search"></i>
+                </button>
             </form>
-            <div class="intro-banner"> <!--the banner for the introducation-->
+            <div class="intro-banner"> <!--the banner for the introduction aka the transparent thing with text on top-->
                 <img src="images/main-banner.jpg" alt="main-banner-image">
-                <div class="welcome-to-container">
+                <div class="introbanner-welcome">
                     <h1>Welcome to Three Star Media</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, dolore. Aliquid quas, in dolorum vero explicabo modi ex debitis quisquam fugiat nam eum corrupti eius exercitationem atque quaerat illo at. </p>
                     <button type="button">Connect with us &#9654;</button>
@@ -38,7 +41,8 @@
             <div class="about-us-content">
                 <img src="images/about-us.jpg" alt="ping-pong-table">
                 <h2>About Us</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, sequi consectetur dolorum blanditiis, quo ab eligendi laborum ad, laboriosam nihil quam non. Pariatur repudiandae rem veritatis autem ab aliquid delectus.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, sequi consectetur dolorum blanditiis, quo ab eligendi laborum ad, laboriosam nihil quam non. Pariatur repudiandae rem veritatis autem ab aliquid delectus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa explicabo doloremque eaque doloribus, fugit, similique ratione sunt pariatur praesentium eveniet sequi, error unde excepturi cupiditate laboriosam quaerat maxime voluptate placeat.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, reprehenderit in similique pariatur veritatis magni ducimus ab ipsam sequi eius omnis illum voluptatum a laboriosam nam. Magnam eos doloribus iste. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque, fugit doloremque ducimus perspiciatis accusamus, assumenda, mollitia rem animi quos eveniet laboriosam temporibus quam asperiores eum hic? Vero, ratione impedit. Culpa?</p>
             </div>
         </section>
 
@@ -58,19 +62,19 @@
             </div>
             <div class="services-video"> <!--Video-->
                 <img src="images/video.jpg" alt="phone">
-                <h3>Digital Transformation</h3>
+                <h3>Video Production</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero dicta placeat aliquid ducimus nisi recusandae quidem eius? Quo adipisci, dolor quia nisi quidem, nostrum unde hic ratione aspernatur fuga similique.</p>
                 <button type="button"> Video Plans &#9654;</button>
             </div>
             <div class="services-web-dev"> <!--Web dev-->
                 <img src="images/web.jpg" alt="phone-and-paper">
-                <h3>Digital Transformation</h3>
+                <h3>Web Development</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero dicta placeat aliquid ducimus nisi recusandae quidem eius? Quo adipisci, dolor quia nisi quidem, nostrum unde hic ratione aspernatur fuga similique.</p>
                 <button type="button"> Web Plans &#9654;</button>
             </div>
             <div class="services-print"> <!--Print-->
                 <img src="images/print.jpg" alt="paper-stands">
-                <h3>Digital Transformation</h3>
+                <h3>Print</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero dicta placeat aliquid ducimus nisi recusandae quidem eius? Quo adipisci, dolor quia nisi quidem, nostrum unde hic ratione aspernatur fuga similique.</p>
                 <button type="button"> Print Plans &#9654;</button>
             </div>
@@ -107,50 +111,54 @@
             <div class="contact-us-">
                 <h2>Contact Us</h2>
             </div>
-            <div class="contact-form"> <!-- contact form container-->
+            <div class="contactform"> <!-- contact form container-->
                 <h3>Send us a message</h3> <!--the header for the form--> 
-                <form class="contact-form-form" action="sites/thanks.html" method="get"> <!-- the form tag with the class-->
+                <form class="contactform-form" action="sites/thanks.html" method="get"> <!-- the form tag with the class-->
                         <div>
-                            <div>
+                            <div class="contactform-fn-title">
                                 <label for="fullname">Full Name</label> <!--label for fullname in form-->
                             </div>
-                            <div>
-                                <input class="input1" id="fullname" type="text" name="fullname"> <!--input for full name in form-->
+                            <div class="contactform-fn-input">
+                                <input id="fullname" type="text" name="fullname"> <!--input for full name in form-->
                             </div>
                         </div>
                         <div>
-                            <div>
+                            <div class="contactform-email-title">
                                 <label for="email">Email</label><!--label for email in form-->
                             </div>
-                            <div>
-                                <input class="input1" id="email" type="text" name="email"> <!--input for email in form-->
+                            <div class="contactform-email-input">
+                                <input id="email" type="text" name="email"> <!--input for email in form-->
                             </div>
                         </div>
                         <div>
-                            <div>
+                            <div class="contactform-message-title">
                                 <label for="message">Message</label> <!--label for message in form-->
                             </div>
                             <div>
                                 <textarea id="message"></textarea> <!--input for message in form-->
                             </div>
+                            <div class="contactform-send-button">
+                                <input type="submit" value="SEND"> <!--Send button-->
+                            </div>
                         </div>
                 </form>
             </div>
-            <div class="hours-operation-container"> <!--2.5.3 hours of operation section-->
+            <div class="hours-operation-container"> <!--hours of operation section-->
                 <h3>Hours of operation</h3>
                 <div class="hours-table"> 
-                    <table>
+                    <table> <!--row-->
                         <tr>
-                            <th>Days</th>
-                            <th>Hours</th>
+                            <th>Days</th> <!--title for left column-->
+                            <th>Hours</th> <!--title for right column-->
+                        </tr>
+                        <tr> <!--columns-->
+                            <td>Monday - Friday</td> <!--left column-->
+                            <td>9 AM - 6 PM</td> <!--right column-->
                         </tr>
                         <tr>
-                            <td>Monday - Friday</td>
-                            <td>9 AM - 6 PM</td>
+                            <td>Saturday - Sunday</td> <!--left column-->
+                            <td> Closed</td> <!--right column-->
                         </tr>
-                        <tr>
-                            <td>Satirday - Sunday</td>
-                            <td> Closed</td>
                     </table>
                 </div>
                 <div class="loaction-container"> <!--location -->
@@ -162,7 +170,7 @@
     </main> <!---End of Main-->
     <footer>
         <p>&copy;Copyright Three Star Media, 2020</p>
-        <p>All images are taken from Unsplash</p>
+            <p class="footer-unsplash-link">All images are taken from <a href="https://unsplash.com/">Unsplash</a></p>
     </footer>
 </body>
 </html>
