@@ -4,89 +4,101 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Final Project</title>
 </head>
 <body>
     <header> <!---Start of Header-->
-        <div class="container"> <!---container for logo and nav bar-->
-            <img src="images/logo.png" alt="logo"> <!-- logo image-->
-            <nav> 
-                <ul> 
-                    <li class="#"><a href="home"></a>Home</li>
-                    <li class="#"><a href="about"></a>About us</li>
-                    <li class="#"><a href="services"></a>Services</li>
-                    <li class="#"><a href="team"></a>Team</li>
-                    <li class="#"><a href="contact"></a>Contact</li>
-                </ul> 
-            </nav> 
-            <form class="search-form"> 
-                <input type="text" placeholder="search" name="search" class="searchform-input">
-                <button type="submit" class="search-form-button">
-                    <i class="fa fa-search"></i>
-                </button>
-            </form>
-            <div class="intro-banner"> <!--the banner for the introduction aka the transparent thing with text on top-->
-                <img src="images/main-banner.jpg" alt="main-banner-image">
-                <div class="intro-banner-welcome">
-                    <h1>Welcome to Three Star Media</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, dolore. Aliquid quas, in dolorum vero explicabo modi ex debitis quisquam fugiat nam eum corrupti eius exercitationem atque quaerat illo at. </p>
-                    <button type="button">Connect with us &#9654;</button>
+        <div class="container">
+            <div class="background-black"> <!---container for logo and nav bar-->
+                <div class="logo">
+                    <img  src="images/logo.png" alt="logo"> <!-- logo image-->
                 </div>
-            </div>
-        </div> 
+                <nav> 
+                    <ul> 
+                        <li class="current"><a href="home"></a>Home</li>
+                        <li class="#"><a href="about"></a>About us</li>
+                        <li class="#"><a href="services"></a>Services</li>
+                        <li class="#"><a href="team"></a>Team</li>
+                        <li class="#"><a href="contact"></a>Contact</li>
+                    </ul> 
+                </nav> 
+                <form class="search-form"> 
+                    <input type="text" placeholder="search" name="search" class="searchform-inpt">
+                    <button type="submit" class="search-form-button">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </form>
+                <div class="intro-banner"> <!--the banner for the introduction aka the transparent thing with text on top-->
+                    <div class="intro-banner-welcome">
+                        <h1>Welcome to Three Star Media</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, dolore. Aliquid quas, in dolorum vero explicabo modi ex debitis quisquam fugiat nam eum corrupti eius exercitationem atque quaerat illo at. </p>
+                        <button class="welcome-button" type="button" >Connect with us &#9654;</button>
+                    </div>
+                    <img class="intro-banner-welcome-image" src="images/main-banner.jpg" alt="main-banner-image">
+                </div>
+            </div> 
+        </div>
     </header> <!---End of Header-->
 
     <main> <!---Start of Main-->
-        <section class="about-us-container"> <!--container for about us-->
-            <div class="about-us-content">
-                <img src="images/about-us.jpg" alt="ping-pong-table">
-                <h2>About Us</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, sequi consectetur dolorum blanditiis, quo ab eligendi laborum ad, laboriosam nihil quam non. Pariatur repudiandae rem veritatis autem ab aliquid delectus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa explicabo doloremque eaque doloribus, fugit, similique ratione sunt pariatur praesentium eveniet sequi, error unde excepturi cupiditate laboriosam quaerat maxime voluptate placeat.</p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, reprehenderit in similique pariatur veritatis magni ducimus ab ipsam sequi eius omnis illum voluptatum a laboriosam nam. Magnam eos doloribus iste. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque, fugit doloremque ducimus perspiciatis accusamus, assumenda, mollitia rem animi quos eveniet laboriosam temporibus quam asperiores eum hic? Vero, ratione impedit. Culpa?</p>
-            </div>
-        </section>
+        <div class="container">
+            <section class="about-us-container"> <!--container for about us-->
+                <div class="about-us-content">
+                    <img src="images/about-us.jpg" alt="ping-pong-table">
+                    <h2>About Us</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, sequi consectetur dolorum blanditiis, quo ab eligendi laborum ad, laboriosam nihil quam non. Pariatur repudiandae rem veritatis autem ab aliquid delectus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa explicabo doloremque eaque doloribus, fugit, similique ratione sunt pariatur praesentium eveniet sequi, error unde excepturi cupiditate laboriosam quaerat maxime voluptate placeat.</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, reprehenderit in similique pariatur veritatis magni ducimus ab ipsam sequi eius omnis illum voluptatum a laboriosam nam. Magnam eos doloribus iste. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque, fugit doloremque ducimus perspiciatis accusamus, assumenda, mollitia rem animi quos eveniet laboriosam temporibus quam asperiores eum hic? Vero, ratione impedit. Culpa?</p>
+                </div>
+            </section>
+        </div>
 
-        <section class="our-services"><!---start of our services section-->
-            <h2>Our Services</h2>
-            <div class="our-services-digital"> <!--Digital-->
-                <img src="images/digital.jpg" alt="phone-and-laptop">
-                <h3>Digital Transformation</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero dicta placeat aliquid ducimus nisi recusandae quidem eius? Quo adipisci, dolor quia nisi quidem, nostrum unde hic ratione aspernatur fuga similique.</p>
-                <button type="button"> Digital Plans &#9654;</button>
-            </div>
-            <div class="our-services-marketing"> <!--Marketing-->
-                <img src="images/marketing.jpg" alt="laptop">
-                <h3>Marketing</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero dicta placeat aliquid ducimus nisi recusandae quidem eius? Quo adipisci, dolor quia nisi quidem, nostrum unde hic ratione aspernatur fuga similique.</p>
-                <button type="button"> Marketing Plans &#9654; </button>
-            </div>
-            <div class="our-services-video"> <!--Video-->
-                <img src="images/video.jpg" alt="phone">
-                <h3>Video Production</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero dicta placeat aliquid ducimus nisi recusandae quidem eius? Quo adipisci, dolor quia nisi quidem, nostrum unde hic ratione aspernatur fuga similique.</p>
-                <button type="button"> Video Plans &#9654;</button>
-            </div>
-            <div class="our-services-web-dev"> <!--Web dev-->
-                <img src="images/web.jpg" alt="phone-and-paper">
-                <h3>Web Development</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero dicta placeat aliquid ducimus nisi recusandae quidem eius? Quo adipisci, dolor quia nisi quidem, nostrum unde hic ratione aspernatur fuga similique.</p>
-                <button type="button"> Web Plans &#9654;</button>
-            </div>
-            <div class="our-services-print"> <!--Print-->
-                <img src="images/print.jpg" alt="paper-stands">
-                <h3>Print</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero dicta placeat aliquid ducimus nisi recusandae quidem eius? Quo adipisci, dolor quia nisi quidem, nostrum unde hic ratione aspernatur fuga similique.</p>
-                <button type="button"> Print Plans &#9654;</button>
-            </div>
-        </section>
+        <div class="container">
+            <section class="our-services"><!---start of our services section-->
+                <div>
+                    <h2>Our Services</h2>
+                </div>
+                <div class="our-services-digital"> <!--Digital-->
+                    <img class="our-services-digital-image" src="images/digital.jpg" alt="phone-and-laptop">
+                    <h3>Digital Transformation</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero dicta placeat aliquid ducimus nisi recusandae quidem eius? Quo adipisci, dolor quia nisi quidem, nostrum unde hic ratione aspernatur fuga similique.</p>
+                    <button class="buttons" type="button"> Digital Plans &#9654;</button>
+                </div>
+                <div class="our-services-marketing"> <!--Marketing-->
+                    <img class="our-services-marketing-image" src="images/marketing.jpg" alt="laptop">
+                    <h3>Marketing</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero dicta placeat aliquid ducimus nisi recusandae quidem eius? Quo adipisci, dolor quia nisi quidem, nostrum unde hic ratione aspernatur fuga similique.</p>
+                    <button class="buttons" type="button"> Marketing Plans &#9654; </button>
+                </div>
+                <div class="our-services-video"> <!--Video-->
+                    <img class="our-services-video-image" src="images/video.jpg" alt="phone">
+                    <h3>Video Production</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero dicta placeat aliquid ducimus nisi recusandae quidem eius? Quo adipisci, dolor quia nisi quidem, nostrum unde hic ratione aspernatur fuga similique.</p>
+                    <button class="buttons" type="button"> Video Plans &#9654;</button>
+                </div>
+                <div class="our-services-web-dev"> <!--Web dev-->
+                    <img class="our-services-web-dev-image" src="images/web.jpg" alt="phone-and-paper">
+                    <h3>Web Development</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero dicta placeat aliquid ducimus nisi recusandae quidem eius? Quo adipisci, dolor quia nisi quidem, nostrum unde hic ratione aspernatur fuga similique.</p>
+                    <button class="buttons" type="button"> Web Plans &#9654;</button>
+                </div>
+                <div class="our-services-print"> <!--Print-->
+                    <img class="our-services-print-image" src="images/print.jpg" alt="paper-stands">
+                    <h3>Print</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero dicta placeat aliquid ducimus nisi recusandae quidem eius? Quo adipisci, dolor quia nisi quidem, nostrum unde hic ratione aspernatur fuga similique.</p>
+                    <button class="buttons" type="button"> Print Plans &#9654;</button>
+                </div>
+            </section>
+        </div>
 
         <section class="our-vision"><!---our vision section-->
             <div class="our-vision-vision">
-                <img src="images/vision.jpg" alt="oragami">
                 <h3>Our Vision</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero dicta placeat aliquid ducimus nisi recusandae quidem eius? Quo adipisci, dolor quia nisi quidem, nostrum unde hic ratione aspernatur fuga similique.</p>
                 <button type="button"> Learn More &#9654;</button>
             </div>
+            <img class="our-vision-vision-image" src="images/vision.jpg" alt="oragami">
         </section>
 
         <section class="our-team"><!---our team section-->
@@ -99,7 +111,9 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, dolore! Nostrum neque consequuntur quos laudantium fugit optio esse, odit veritatis delectus excepturi rerum adipisci ullam quaerat ipsa ex sed doloremque?</p>
                 </div>
                 <div class="our-team-members-bob"> <!--team member bob-->
-                    <img src="images/bob.jpg" alt="">
+                    <div class="">
+                        <img src="images/bob.jpg" alt="">
+                    </div>
                     <h3>Bob Rite</h3>
                     <h4>CFO and Co-Owner</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quibusdam possimus tempora, assumenda, accusamus quasi ullam corrupti ipsa alias dolore aliquid minus nisi nihil deleniti quo officia iste dolor vel!</p>

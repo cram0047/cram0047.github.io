@@ -1,0 +1,452 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* END OF CSS RESET*/
+
+
+body{
+        font-family: 'Open Sans', sans-serif;
+        background: #ffff;
+        width: 100%;
+        margin: 0 auto;
+    }
+/*---------START OF STYLE-----------*/
+    
+
+    
+    header, main, footer{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+  
+    h2{
+        font-weight: bold;
+        font-size: 48px;
+    }
+    h3{
+        font-weight: bold;
+        font-size: 28px;
+    }
+    .container{
+        background: none;
+        display: block;
+        width: 100%;
+    }
+
+    .logo {
+        background: #c78c06;
+        display: block;
+    }
+
+    ul li{
+        text-decoration: none;
+        text-align: center;
+        display: block;
+        color: #c78c06;
+        font-size: 18px;
+        font-style: normal;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .current {
+        color: black;
+        background: #c78c06;
+        width: 100%;
+        margin: 0;
+     
+    }
+
+    .searchform-inpt{
+        width: 90%;
+        margin: 0 auto;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;   
+        height: 34px;
+    }
+
+    .welcome-button{
+        border: none;
+        background: #c78c06;
+        width: 260px;
+        height: 94px;
+        font-size: 21px;
+       }
+
+    .intro-banner-welcome-image{
+        width: 100%;
+        height: 600px;
+    }
+
+    .intro-banner-welcome{
+        background:rgba(0, 0 , 0, 0.6);
+        width: 100%;
+        height: 462px;
+        position: absolute;
+        font-weight: bolder;
+        color: #fff;
+        font-family: 'Open Sans', sans-serif ;
+        font-weight: normal;
+        line-height: 21px;
+        margin-top: 68px;
+        margin-bottom: 68px;
+        text-align: left;
+    
+    }
+    .buttons{
+        border: none;
+        color: #fff;
+        background: #222222;
+        width: 100%;
+        height: 92px;
+        font-size: 21px; 
+    }
+    .intro-banner-welcome h1{
+        font-weight: bold;
+        font-size: 71px;
+        line-height: 98px;
+    }
+
+    /*--------------About Us----------*/
+    .about-us-container{
+        background: #ffe5ad;
+    }
+
+    .about-us-content{
+        text-align: left;
+        font-family: 'Open Sans', sans-serif;    
+    }
+
+
+    .about-us-content img{
+        text-align: center;
+        position: relative;
+        display: block;
+        margin: auto;
+        height: 338px;
+        width: 100%;
+    }
+
+    /*----------- Our Services-------------*/
+
+    .our-services{
+        background: #ffff;
+        margin: 14px;
+    }
+
+    .our-services h2{
+        font-weight: bold;
+        font-size: 48px;
+        text-align: left;
+    }
+    .our-services h3{
+        font-weight: bold;
+    }
+
+    
+    .our-services-digital{
+        background: #ffe5ad;
+        height: 728px;
+        width: 100%;
+    }
+    .our-services-digital-image{
+        width: 100%;
+        height: 452px;
+    }
+
+    .our-services-marketing{
+        background: #ffe5ad;
+        height: 728px;
+        width: 100%;
+    }
+    .our-services-marketing-image{
+        width: 100%;
+        height: 452px;
+
+    }
+    .our-services-video{
+        background: #ffe5ad;
+        height: 728px;
+        width: 100%;
+    }
+
+    .our-services-video-image{
+        width: 100%;
+        height: 452px;
+    }
+
+    .our-services-web-dev{
+        background: #ffe5ad;
+        height: 728px;
+        width: 100%;
+    }
+    .our-services-web-dev-image{
+        width: 100%;
+        height: 452px;
+    }
+
+    .our-services-print{
+        background: #ffe5ad;
+        height: 728px;
+        width: 100%;
+    }
+
+    .our-services-print-image{
+        width: 100%;
+        height: 452px;
+    }
+    .our-services button{
+        border: none;
+        color: #fff;
+        background: #222222;
+        height: 92px;
+        width: 212px;
+        font-size: 21px;
+    }
+
+    /*----------- Our Vision--------------*/
+
+    .our-vision-vision-image{
+        width: 100%;
+        height: 276px;
+        object-fit: cover;
+    }
+    
+    .our-vision-vision{
+        position: absolute;
+        color: #fff;
+    }
+
+    .our-vision-vision h3{
+        font-weight: bold;
+        font-size: 38px;
+
+    }
+
+    .our-vision button{
+        border: solid 2px;
+        border-color: #c78c06;
+        color: #fff;
+        background: #0d233b;
+        width: 218px;
+        height: 92px;
+        font-size: 21px;
+    }
+
+    /*------------ Our Team---------------*/
+    .our-team{
+        background: #ffff;
+        margin: 14px;
+    }
+
+    .our-team-members-john{
+        background: #ffe5ad;
+        width: 100%;
+    }
+
+    .our-team-members-bob{
+        background: #ffe5ad;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .our-team-members-bob img{
+        width: 100%;
+        height: 450px;
+    }
+
+    .our-team-members-john img{
+        width: 100%;
+        
+    }
+
+    
+
+    .contact-us{
+        background: #ffff;
+        margin: 14px;
+    }
+
+    .hours-operation-container{
+        background: #ffff;
+    }
+
+    table, th, td{
+        border: solid black 2px;
+        width: 100%;
+    }
+
+    th{
+        background: #ffe5ad;
+    }
+    
+    iframe{
+            width:100%;
+            height: 100%;
+    }
+
+
+
+
+
+
+    @media screen and (min-width:760px) {
+        .container{
+            width: 706px;
+        }
+    }
+
+        
+    .container{
+        background: #222;
+        display: block;
+    }
+
+    .logo {
+        background: #c78c06;
+        display: block;
+    }
+
+    ul {
+        text-decoration: none;
+        text-align: center;
+        display: block;
+        color: #c78c06;
+        display: inline;
+    }
+
+    .current {
+        color: black;
+        background: #c78c06;
+    }
+
+    .intro-banner{
+        text-align: center;
+        position: relative;
+        color: #ffff;
+    }
+    .intro-banner-image{
+        display: block;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .intro-banner-welcome{
+        color: #ffff;
+        background:rgba(0, 0 , 0, 0.6);
+        position: absolute;
+    }
+
+    /*--------------About Us----------*/
+    .about-us-container{
+        text-align: center;
+        text-align: center;
+        background: #ffe5ad;
+    }
+
+    .about-us-content{
+        text-align: left;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .about-us-content h2{
+        font-weight: bold;
+        font-size: 48px;
+    }
+
+    .about-us-content img{
+        text-align: center;
+        position: relative;
+        display: block;
+        margin: auto;
+    }
+
+    /*----------- Our Services-------------*/
+
+    .our-services{
+        background: #ffff;
+    }
+
+    .our-services h2{
+        font-weight: bold;
+        font-size: 48px;
+    }
+    .our-services h3{
+        font-weight: bold;
+    }
+
+    .our-services button{
+        background: #000;
+        color: #ffff;
+    }
+    
+    .our-services-digital{
+        background: #ffe5ad;
+    }
+
+    .our-services-marketing{
+        background: #ffe5ad;
+    }
+
+    .our-services-video{
+        background: #ffe5ad;
+    }
+
+    .our-services-web-dev{
+        background: #ffe5ad;
+    }
+
+    .our-services-print{
+        background: #ffe5ad;
+    }
+
+    /*----------- Our Vision--------------*/
+    
+    /*------------ Our Team---------------*/
