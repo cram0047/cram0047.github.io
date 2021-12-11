@@ -123,6 +123,7 @@ body{
         height: 34px;
     }
 
+
     .welcome-button{
         border: none;
         background: #c78c06;
@@ -385,11 +386,13 @@ body{
 
 @media screen and (min-width:760px) {
     .all-container{
-        width: 1200px;
+        width: 706px;
     }
-    /*header, main, footer {
-        width: 1200px;
+
+    header, main, footer {
+        width: 706px;
     }
+
     .intro-banner-welcome{
         background:rgba(0, 0 , 0, 0.6);
         width: 706px;
@@ -403,6 +406,214 @@ body{
         margin-top: 68px;
         margin-bottom: 68px;
         text-align: left;
-    }*/
+    }
 }
 
+/*==============================================================================================================================
+=================================================== media screen 1200px ========================================================
+================================================================================================================================*/
+
+@media screen and (min-width: 1200px) {
+    
+    .all-container{
+        width: 1168px;
+    }
+
+    header, main, footer {
+        width: 1200px;
+    }
+
+    .logo {
+        background: #222;
+        display: block;
+    }
+
+    ul li{
+        text-decoration: none;
+        display: inline;
+        color: #c78c06;
+        font-size: 18px;
+        font-style: normal;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+
+    .intro-banner{
+        display: flex;
+    }
+
+ 
+    .intro-banner-welcome{
+        background:rgba(0, 0 , 0, 0.6);
+        width: 1000px;
+        height: 420px;
+        display: block;
+        position: absolute;
+        font-weight: bolder;
+        color: #fff;
+        font-family: 'Open Sans', sans-serif ;
+        font-weight: normal;
+        line-height: 21px;
+        text-align: left;
+    }
+
+    .welcome-button{
+        border: none;
+        background: #c78c06;
+        width: 292px;
+        height: 108px;
+        font-size: 21px;
+        }
+
+    .intro-banner-welcome-image{
+        width: 1168px;
+        height: 502px;
+    }
+
+    .buttons{
+        border: none;
+        color: #fff;
+        background: #222222;
+        width: 454px;
+        height: 9px;
+        font-size: 21px; 
+    }
+
+    /*===================ABOUT=====================*/
+
+    .about-us-container{
+        background: #ffe5ad;
+        
+    }
+
+    .about-us-content{
+        text-align: left;
+        font-family: 'Open Sans', sans-serif;    
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-content: center;
+    }
+
+
+    .about-us-content img{
+        text-align: center;
+        position: relative;
+        display: block;
+        margin: auto;
+        height: 242px;
+        width: 480px;
+    }
+   
+
+    /*===================OUR SERVICES=====================*/
+    .our-services{
+        width: 974PX;
+        height: 1265px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        row-gap: 1em;
+        column-gap: 1em;
+    }
+    .our-services .our-services-title{
+        grid-column: 1 / 13;
+        grid-row: 1 / 1;
+        height: 120px;
+    }
+
+    .our-services .our-services-digital{
+        grid-column: 1 / 7;
+        grid-row: 2 / 2;
+        height: 590px;
+    }
+
+    .our-services .our-services-marketing{
+        grid-column: 7 / 13;
+        grid-row: 2 / 2;
+        height: 590px;
+
+    }
+
+    .our-services .our-services-video{
+        grid-column: 1 / 5;
+        grid-row: 3 / 3;
+        height: 520px;
+    }
+
+    .our-services .our-services-web-dev{
+        grid-column:  5 / 9;
+        grid-row: 3 / 3;
+        height: 520px;
+    }
+
+    .our-services .our-services-print{
+        grid-column:  9 /13 ;
+        grid-row: 3 / 3;
+        height: 520px;
+    }
+
+    .our-services-marketing-image, .our-services-digital-image{
+        width: 480px;
+        height: 322px;
+    }
+
+    .our-services-video-image, .our-services-web-dev-image, .our-services-print-image{
+        width: 318px ;
+        height: 218px;
+    }
+
+
+    /*=========================================== OUR VISION ===========================================================*/
+
+    .our-vision-vision-image{
+        width: 1200px;
+        height: 256px;
+        object-fit: cover;
+    }
+    
+    .our-vision-vision{
+        position: absolute;
+        color: #fff;
+        padding-left: 112px;
+    }
+
+    .our-vision button{
+        border: solid 2px;
+        border-color: #c78c06;
+        color: #fff;
+        background: #0d233b;
+        width: 206px;
+        height: 92px;
+        font-size: 21px;
+    }
+
+    /*=========================================== OUR TEAM ===========================================================*/
+
+    .our-team{
+        background: #ffff;
+        margin: 14px;
+    }
+
+    .our-team-members-john{
+        background: #ffe5ad;
+        width: 100%;
+    }
+
+    .our-team-members-bob{
+        background: #ffe5ad;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .our-team-members-bob img{
+        width: 100%;
+        height: 450px;
+    }
+
+    .our-team-members-john img{
+        width: 100%;
+    }
+
+}
