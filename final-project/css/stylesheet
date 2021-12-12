@@ -1,0 +1,10 @@
+.search-form-button{
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #222;
+  color: #c78c06;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+}
