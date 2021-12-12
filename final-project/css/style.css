@@ -85,6 +85,7 @@ body{
         width: 100%;
     }
 
+    
     .container{
         background: #222;
         display: block;
@@ -423,11 +424,16 @@ body{
         width: 1200px;
     }
 
+    .container{
+        display: flex;
+    }
+
     .logo {
         background: #222;
         display: block;
     }
 
+    
     ul li{
         text-decoration: none;
         display: inline;
@@ -439,10 +445,13 @@ body{
     }
 
 
-    .intro-banner{
-        display: flex;
+
+    .search-form{
+        width: 186px;
+        height: 40px;
     }
 
+    
  
     .intro-banner-welcome{
         background:rgba(0, 0 , 0, 0.6);
@@ -592,28 +601,72 @@ body{
     /*=========================================== OUR TEAM ===========================================================*/
 
     .our-team{
-        background: #ffff;
-        margin: 14px;
+        width: 974px;
+        height: 720px;
+        margin: auto;
     }
-
     .our-team-members-john{
         background: #ffe5ad;
-        width: 100%;
+        display: flex;
+        margin: 0;
     }
 
     .our-team-members-bob{
         background: #ffe5ad;
-        width: 100%;
-        margin-top: 10px;
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 0;
+        
     }
 
     .our-team-members-bob img{
-        width: 100%;
-        height: 450px;
+        width: 487px;
+        height: 324px;
+        margin: 0;
+
     }
 
     .our-team-members-john img{
-        width: 100%;
+        width: 487px;
+        height: 324px;
+        margin: 0;
+    }
+
+    /*=========================================== CONTACT STUFF ===========================================================*/
+
+    .contact-us{
+        width: 974px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 100px 480px 200px;
+
+    }
+    .contact-us:nth-child(1){
+        grid-column: 1 / 2 ;
+        grid-row: 1 / 1;
+    }
+
+    .contact-form{
+        grid-column: 1 / 2;
+        grid-row: 2 / 2;
+        width: 478px;
+        margin: 9px;
+    }
+
+    .location-container{
+        grid-column: 2 / 3;
+        grid-row: 2 / 2 ;
+    }
+
+    .hours-operation-container{
+        grid-column: 1 / 3;
+    }
+
+    iframe{
+        width: 478px;
+        height: 370px ;
+        margin: 9px;
     }
 
 }
