@@ -80,7 +80,7 @@ body{
     
     h3{
         font-weight: bold;
-        font-size: 28px;
+        font-size: 30px;
         padding-top: 14px;
         padding-bottom: 12px;
     }
@@ -93,6 +93,7 @@ body{
 
     p{
         padding-bottom: 14px;
+        line-height: 20px;
     }
 
     .all-container{
@@ -120,7 +121,8 @@ body{
         font-style: normal;
         margin-top: 10px;
         margin-bottom: 10px;
-        padding-top: 2%;
+        padding-top: 3%;
+        padding-bottom: 2%;
     }
 
     .current {
@@ -132,6 +134,7 @@ body{
 
     .search-form{
         margin: 2%;
+        font-family: Arial, Helvetica, sans-serif;
     }
 
     .searchform-inpt{
@@ -153,12 +156,13 @@ body{
 
     .intro-banner{
            width: 100%;
+           position: relative;
        }
 
-    F
+    
     .intro-banner-welcome{
         background:rgba(0, 0 , 0, 0.6);
-        height: 462px;
+        height: 400px;
         position: absolute;
         font-weight: bolder;
         color: #fff;
@@ -169,6 +173,8 @@ body{
         margin-bottom: 68px;
         text-align: left;
         padding: 12px;
+        padding-bottom: 0;
+        padding-top: 40px;
     }
 
     .intro-banner-welcome p{
@@ -215,6 +221,10 @@ body{
 
     }
 
+    .about-us-content p{
+        padding: 0;
+    }
+
     .about-us-content img{
         text-align: center;
         position: relative;
@@ -234,6 +244,8 @@ body{
         font-weight: bold;
         font-size: 48px;
         text-align: left;
+        padding-top: 30px;
+        padding-bottom: 15px;
     }
     
     .all-padding{
@@ -307,6 +319,10 @@ body{
 
     /*========================================== Our Vision ==============================================*/
 
+    .our-vision h3{
+        margin-top: 10px;
+    }
+
     .our-vision-vision-image{
         width: 100%;
         height: 276px;
@@ -334,6 +350,11 @@ body{
     }
 
     /*================================================= Our Team ===========================================*/
+    .our-team h2{
+        padding-top: 25px;
+        padding-bottom: 10px;
+    }
+
     .our-team{
         background: #ffff;
         margin: 14px;
@@ -415,10 +436,12 @@ body{
         background: #ffe5ad;
     }
     
+    /*======================== MAP ==========================*/
     iframe{
         margin: 0 auto;
+        width: 100%;
     }
-    
+    /*=============================================== FOOTER =======================================*/
     footer{
         background: #222222;
         color: #c78c06;
@@ -457,20 +480,6 @@ body{
         width: 706px;
     }
 
-    .intro-banner-welcome{
-        background:rgba(0, 0 , 0, 0.6);
-        width: 706px;
-        height: 462px;
-        position: absolute;
-        font-weight: bolder;
-        color: #fff;
-        font-family: 'Open Sans', sans-serif ;
-        font-weight: normal;
-        line-height: 21px;
-        margin-top: 68px;
-        margin-bottom: 68px;
-        text-align: left;
-    }
 }
 
 /*==============================================================================================================================
@@ -488,30 +497,72 @@ body{
         margin: 0 auto;
     }
 
+    h1{
+        font-size: 81px;
+        line-height: 112px;
+    }
+
+    h2{
+        font-weight: bold;
+        font-size: 54px;
+        margin: 14px;    
+    }
+    
+    h3{
+        font-weight: bold;
+        font-size: 36px;
+        
+    }
+
+    h4{
+        border-bottom: solid #c78c06 2px;
+        font-weight: bolder;
+        margin-bottom: 12px;
+    }
+
+    p{
+        padding-bottom: 14px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    /*======================NAV BAR STUFF =======================================*/
+    .current{
+        width: 125px;
+        height: 50px;
+        display: inline;
+        color: #222;
+        text-align:center;
+    }
     .container{
         margin: 0 auto;
         width: 1200px;
+        margin-bottom: 0;
     }
 
     .nav-bar{
         display: flex;
-        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+        margin: 10px;
+        height: 142px;
     }
 
-    .logo {
-        background: #222;
-
-    }
-
+   
+   .logo{
+       margin-left: 110px;
+       margin-right: 55px;
+   }
     
-    ul li{
+    ul li {
         text-decoration: none;
         display: inline;
+        text-align: left;
         color: #c78c06;
         font-size: 18px;
         font-style: normal;
-        margin-top: 10px;
-        margin-bottom: 10px;
+        margin-left: 30px;
+        margin-right: 30px;
+        display: inline;
     }
 
 
@@ -519,6 +570,11 @@ body{
     .search-form{
         width: 186px;
         height: 40px;
+        margin-right: 110px;
+    }
+
+    .search-form-button{
+        display: inline;
     }
 
 
@@ -531,7 +587,7 @@ body{
     .intro-banner-welcome{
         background:rgba(0, 0 , 0, 0.6);
         width: 1000px;
-        height: 420px;
+        height: 400px;
         position: absolute;
         font-weight: bolder;
         color: #fff;
@@ -540,8 +596,10 @@ body{
         line-height: 21px;
         text-align: left;
         margin: auto;
+    
         top: 30px;
-        left: 70px
+        left: 70px;
+        padding-top: 50px
     }
 
     .welcome-button{
@@ -550,6 +608,8 @@ body{
         width: 292px;
         height: 108px;
         font-size: 21px;
+        margin-bottom: 0;
+        font-size: 24px;
         }
 
     .intro-banner-welcome-image{
@@ -557,15 +617,7 @@ body{
         height: 502px;
     }
 
-    .buttons{
-        border: none;
-        color: #fff;
-        background: #222222;
-        width: 454px;
-        height: 9px;
-        font-size: 21px; 
-    }
-
+    
     /*===================ABOUT=====================*/
 
     .about-us-container{
@@ -577,6 +629,7 @@ body{
         text-align: left;
         font-family: 'Open Sans', sans-serif; 
         display: flex;   
+        flex-direction: row;
         margin-left: 112px;
         margin-right: 112px;
         margin-bottom: 0;
@@ -585,12 +638,11 @@ body{
 
 
     .about-us-content img{
-        text-align: center;
         position: relative;
         display: block;
-        margin: auto;
-        height: 242px;
-        width: 480px;
+        margin: 0 auto;
+        width: 500px;
+        height: 310px;
     }
    
 
@@ -602,22 +654,46 @@ body{
         margin-left: 0;
         padding-left: 0;
     }
+
+    .our-services h3{
+        font-size: 30px;
+        padding-bottom: 0;
+        margin-left: 0;
+        padding-left: 0;
+    }
     
+    .our-services p{
+       font-size: 12px;
+       margin: 5px;
+       line-height: 10px;
+    }
+
     .our-services{
         width: 974px;
-        height: 1265px;
+        height: 1350px;
         margin: 0 auto;
         display: grid;
         grid-template-columns: repeat(12, 1fr);
-        grid-template-rows: 80px 590px 520px;
-        row-gap: 1em;
-        column-gap: 1em;
+        grid-template-rows: 120px 590px 550px;
+        row-gap: 14px;
+        column-gap: 14px;
         padding: 0;
+    }
+
+    .our-services .all-padding{
+        padding: 5px;
+    }
+
+    .our-services p{
+        font-size: 16px;
+        line-height: 24px;
     }
     .our-services .our-services-title{
         grid-column: 1 / 13;
         grid-row: 1 / 1;
-        height: 120px;
+        height: 50px;
+        padding-bottom: 0;
+        margin-bottom: 0;
     }
 
     .our-services .our-services-digital{
@@ -637,38 +713,54 @@ body{
     .our-services .our-services-video{
         grid-column: 1 / 5;
         grid-row: 3 / 3;
-        height: 520px;
         width: 318px;
+        height: 560px;
         margin: 0;
     }
 
     .our-services .our-services-web-dev{
         grid-column:  5 / 9;
-        grid-row: 3 / 3;
-        height: 520px;
+        grid-row: 3 / 4;
         width: 318px;
+        height: 560px;
         margin: 0;
     }
 
     .our-services .our-services-print{
         grid-column:  9 /13 ;
-        grid-row: 3 / 3;
-        height: 520px;
+        grid-row: 3 / 4;
         width: 318px;
+        height: 560px;
         margin: 0;
     }
 
     .our-services-marketing-image, .our-services-digital-image{
-        width: 480px;
+        width: 484px;
         height: 322px;
+        margin: 0;
     }
 
     .our-services-video-image, .our-services-web-dev-image, .our-services-print-image{
         width: 318px ;
         height: 218px;
-        margin: auto;
+        margin: 0 auto;
     }
-
+    .our-services-video button, .our-services-web-dev button, .our-services-print button{
+        width:300px ;
+        margin-left: 5px;
+        margin-bottom: 10px;
+    }
+    .our-services-digital button, .our-services .our-services-marketing button{
+        width: 450px;
+        height: 50px;
+        margin-left: 10px;    
+        text-align: center;
+    }
+    .our-services-video-image, .our-services-web-dev-image, .our-services-print-image {
+        width: 318px ;
+        height: 240px;
+        margin: 0 auto;
+    }
 
     /*=========================================== OUR VISION ===========================================================*/
 
@@ -740,6 +832,11 @@ body{
         grid-template-rows: 100px 480px 200px;
 
     }
+
+    .contact-form h3{
+        padding-top: 0 ;
+
+    }
     .contact-us:nth-child(1){
         grid-column: 1 / 2 ;
         grid-row: 1 / 1;
@@ -761,15 +858,20 @@ body{
         grid-column: 1 / 3;
     }
 
-    iframe{
+    iframe{ /*=====MAP=======*/
         width: 478px;
         height: 370px ;
         margin: 9px;
     }
 
 
-
+/*====================== FOOTER ==========================*/
     footer{
         width: 1200px;
+    }
+
+    footer p{
+        line-height: 40px;
+
     }
 }
