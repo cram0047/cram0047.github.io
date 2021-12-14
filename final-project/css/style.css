@@ -792,6 +792,7 @@ body{
         width: 974px;
         height: 720px;
         margin: auto;
+        padding-bottom: 60px;
     }
 
     
@@ -806,6 +807,7 @@ body{
         display: flex;
         flex-direction: row-reverse;
         margin: 0;
+        padding-bottom: 0;
         
     }
 
