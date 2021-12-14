@@ -674,7 +674,7 @@ body{
         margin: 0 auto;
         display: grid;
         grid-template-columns: repeat(12, 1fr);
-        grid-template-rows: 120px 590px 550px;
+        grid-template-rows: 120px 560px 550px;
         row-gap: 14px;
         column-gap: 14px;
         padding: 0;
@@ -699,14 +699,14 @@ body{
     .our-services .our-services-digital{
         grid-column: 1 / 7;
         grid-row: 2 / 2;
-        height: 590px;
+        height: 560px;
         margin: 0;
     }
 
     .our-services .our-services-marketing{
         grid-column: 7 / 13;
         grid-row: 2 / 2;
-        height: 590px;
+        height: 560px;
         margin: 0;
     }
 
@@ -738,6 +738,7 @@ body{
         width: 484px;
         height: 322px;
         margin: 0;
+        margin-bottom: 0;
     }
 
     .our-services-video-image, .our-services-web-dev-image, .our-services-print-image{
